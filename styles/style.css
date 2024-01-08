@@ -1,13 +1,66 @@
 /*Common shared styles*/
-body{
+.body{
     font-family: 'Merriweather', serif;
-    margin-left: 50px;
+    margin-left: 140px;
+    margin-right: 70px;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 100px 385px 214px 385px;
+    list-style: none;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+}
+.gift-image{
+    padding: 20px;
+    width: 408px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.gift-image:hover{
+    background-color: #B18079;
+    filter:brightness(70%);
+    padding: 20px;
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    background-color: #F00;
+    padding: 14px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.btn:hover{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(30, 222, 88);
+    padding: 14px 32px;
+    color: #090909;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 700;
 }
 /* Updated styles for Banner text */
 .header { 
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0)), url('../images/BannerImage.png');
     position: relative;
-    margin: 140px 50px 140px 50px;
+    margin:50px 0px 140px 50px;
     width: 1320px;
     height: 600px;
     border-radius: 16px;
@@ -70,4 +123,175 @@ body{
     margin-right: auto;
     width: 50%;
 }
+/*Style for Main> main tag*/
+.main-main{
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: relative;
+    border-radius: 2%;
+    
+}
+.party-text {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0;
+    position: absolute;
+    left: 35%;
+    top: 30%; 
+    transform: translateX(-50%);
+    z-index: 2; 
+}
 
+.party-para {
+    margin-top: 20px; 
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    position: absolute; 
+    left: 35%;
+    top: calc(30% + 180px);
+    transform: translateX(-50%);
+    z-index: 1; 
+}
+
+.text-style-main{
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #FFF; 
+    width: 80%; 
+}
+.party-text2 {
+    font-family: Inter;
+    color: #e0bc47; 
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    position: absolute;
+    left: 15%;
+    top: calc(30% + 280px); 
+    transform: translateX(-50%);
+    z-index: 2; 
+}
+.main-img{
+    
+    margin-left: 65%;
+    margin-top: 10%;
+    width: 30%;
+    display: block;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.080px 0px 0px 0px;
+    flex-shrink: 0;
+    fill: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%);
+    background-blend-mode: multiply;
+    mix-blend-mode:hard-light;
+}
+/*Discription Style*/
+.discription-box{
+    margin-top: 10%;
+    margin-left:50px;
+    margin-right: 140px;
+    background-color: #f3d8e4;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    text-align: center;
+}
+.des{
+    color: #F00;
+}
+
+/* style for gift box */
+.gift-box{
+    margin-left:50px;
+    margin-right: 140px;
+}
+h6{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#title-gift{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0%;
+}
+.gift-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;    
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0%;
+}
+.gift{
+    display: flex;
+    align-items: center;
+    margin-right:10%;
+}
+/*style for subascription box*/
+.subscription-box{
+    margin-top: 5%;
+    margin-left:50px;
+    margin-right: 140px;
+    background-color: #f3d8e4;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    text-align: center;
+}
+input[type="email"] {
+    padding: 10px;
+    width: calc(100% - 90px); 
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.mail-image{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-top: 100%;
+}
+.subscription-form {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto; 
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    margin-left: -1px; 
+    background-color: #ff2600;
+    color: #fff;
+    border: none;
+}
+/*style for footer*/
+
+.footer{
+    margin: 5% 0;
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+}
