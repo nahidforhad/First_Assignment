@@ -1,0 +1,73 @@
+/*Common shared styles*/
+body{
+    font-family: 'Merriweather', serif;
+    margin-left: 50px;
+}
+/* Updated styles for Banner text */
+.header { 
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0)), url('../images/BannerImage.png');
+    position: relative;
+    margin: 140px 50px 140px 50px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.banner-title {
+    padding: 177px 0 0 0; 
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.banner-text {
+    margin-top: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+    position: absolute;  
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+/*Style for main header*/
+.main-header-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.main-header-text{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.main-header-title2{
+    padding-top: 0px;
+    margin-top: 8px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.main-header-image{
+    width: 800px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.main-header-image-design{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
