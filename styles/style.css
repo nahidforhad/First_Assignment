@@ -291,6 +291,57 @@ button[type="submit"] {
     color: #fff;
     border: none;
 }
+/*style for Sales offer*/
+.sales-offer{
+    position: relative;
+    margin-top: 5%;
+    margin-left:50px;
+    margin-right: 140px;
+    background-color: #ffffff;
+    width: 1320px;
+    height: 782px;
+    text-align: center;
+}
+.sales-title1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+#sales{
+    color: red;
+}
+.sales-title2{
+    padding-top: 0%;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+.sale-text{
+    margin-top: 0%;
+    color: #62606499;
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 20px;
+}
+.sale-background{
+    position: relative; /* Make sure the position is set for the children's positioning */
+    width: 100%; /* Or any specific width */
+    height: auto;
+}
+.images-row{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.sales-image{
+  filter:saturate(70%);
+    
+}
 /*style for footer*/
 
 .footer{
